@@ -1,0 +1,19 @@
+##############
+
+####
+Get Running Containers
+docker ps
+
+####
+Get All containers
+docker ps -a 
+
+####
+Stop running containers
+docker kill $(docker ps -q)
+
+##
+Remove all containers
+docker rm $(docker ps -a -q)
+
+
